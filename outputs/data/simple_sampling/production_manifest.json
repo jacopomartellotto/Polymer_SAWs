@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "27ef1db0ae36282e54edc4eb8669d860b16afbb0d23985b40b0420fffb8676f6",
+  "source_sha256": "2f83c8ac4842e90db7ed58f59f197e0a30266b5a18939b115d660179d2d17503",
+  "proposal_scheme": "non_backtracking",
+  "attempts_total": 124000000,
+  "seconds": 333.9505649000057,
+  "completed_at_utc": "2026-10-19T07:52:33.174259+00:00"
+}

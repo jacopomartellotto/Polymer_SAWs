@@ -1,0 +1,80 @@
+{
+  "A": 0.7719040838399818,
+  "A_sem": 0.00037621299082452736,
+  "nu": 0.7499614310923305,
+  "nu_sem": 2.7398470759794666e-05,
+  "covariance": [
+    [
+      1.415362144651359e-07,
+      -1.0285869051104884e-08
+    ],
+    [
+      -1.0285869051104884e-08,
+      7.506761999753233e-10
+    ]
+  ],
+  "parameter_order": [
+    "A",
+    "nu"
+  ],
+  "ci68": [
+    0.7499340326215707,
+    0.7499888295630903
+  ],
+  "ci95": [
+    0.7499077310764098,
+    0.7500151311082511
+  ],
+  "chi2": 13.305816791881812,
+  "dof": 9,
+  "chi2_reduced": 1.478424087986868,
+  "p_value": 0.14924956921236684,
+  "N_min": 3000,
+  "N_max": 20000,
+  "points": 11,
+  "model": "A*N^(2*nu)",
+  "method": "scipy.optimize.curve_fit",
+  "absolute_sigma": true,
+  "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling",
+  "plotted_pivot_points": 43,
+  "simple_fit": {
+    "A": 0.9117902993229743,
+    "A_sem": 0.0007647072787348614,
+    "nu": 0.7298195540676004,
+    "nu_sem": 0.0001433262313737013,
+    "covariance": [
+      [
+        5.847772221500769e-07,
+        -1.0740293959153125e-07
+      ],
+      [
+        -1.0740293959153125e-07,
+        2.0542408599787756e-08
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7296762278362267,
+      0.729962880298974
+    ],
+    "ci95": [
+      0.729538639816068,
+      0.7301004683191327
+    ],
+    "chi2": 351.75154187299034,
+    "dof": 12,
+    "chi2_reduced": 29.31262848941586,
+    "p_value": 5.98996176765327e-68,
+    "N_min": 6,
+    "N_max": 30,
+    "points": 14,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "notes": "Nu is fitted with the pure law A*N^(2*nu), using Pivot N>=3000 and Simple sampling N>=6. Curves are shown only in their fit ranges. The Simple-sampling exponent is an effective short-chain estimate. Error bars are one SEM. Nu errors are sqrt(pcov[1,1]) from curve_fit with absolute_sigma=True, conditional on the model and fit range. Distances use lattice spacing 1."
+}

@@ -1,0 +1,13 @@
+# Normalize ordinary text while preserving files used by byte-level run hashes.
+* text=auto
+
+# Source hashes in the saved run manifests must survive clone/checkout unchanged.
+src/pivot_saw.cpp -text
+grid/run_simple_sampling.py -text
+
+# Calibration CSVs are also hashed; preserve all saved result files byte for byte.
+outputs/** -text
+
+# Published figures and documents are binary assets.
+*.png binary
+*.pdf binary

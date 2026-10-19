@@ -1,0 +1,509 @@
+{
+  "pivot_pure_Nmin_200": {
+    "A": 0.778075030587748,
+    "A_sem": 9.580755765546095e-05,
+    "nu": 0.7494954915442947,
+    "nu_sem": 8.083711937532982e-06,
+    "covariance": [
+      [
+        9.179088103904475e-09,
+        -7.65919306142281e-10
+      ],
+      [
+        -7.65919306142281e-10,
+        6.534639868901322e-11
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7494874078323572,
+      0.7495035752562322
+    ],
+    "ci95": [
+      0.7494796477600357,
+      0.7495113353285537
+    ],
+    "chi2": 1938.5666450934602,
+    "dof": 19,
+    "chi2_reduced": 102.02982342597159,
+    "p_value": 0.0,
+    "N_min": 200,
+    "N_max": 20000,
+    "points": 21,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "pivot_pure_Nmin_1000": {
+    "A": 0.7744919345956633,
+    "A_sem": 0.00013523868520663076,
+    "nu": 0.7497756026254441,
+    "nu_sem": 1.0987247830014154e-05,
+    "covariance": [
+      [
+        1.828950197641817e-08,
+        -1.4758292680109134e-09
+      ],
+      [
+        -1.4758292680109134e-09,
+        1.2071961487815073e-10
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7497646153776141,
+      0.7497865898732741
+    ],
+    "ci95": [
+      0.749754068015408,
+      0.7497971372354801
+    ],
+    "chi2": 83.53563245091203,
+    "dof": 15,
+    "chi2_reduced": 5.569042163394135,
+    "p_value": 1.5672675144654482e-11,
+    "N_min": 1000,
+    "N_max": 20000,
+    "points": 17,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "pivot_pure_Nmin_3000": {
+    "A": 0.7719040838399818,
+    "A_sem": 0.00037621299082452736,
+    "nu": 0.7499614310923305,
+    "nu_sem": 2.7398470759794666e-05,
+    "covariance": [
+      [
+        1.415362144651359e-07,
+        -1.0285869051104884e-08
+      ],
+      [
+        -1.0285869051104884e-08,
+        7.506761999753233e-10
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7499340326215707,
+      0.7499888295630903
+    ],
+    "ci95": [
+      0.7499077310764098,
+      0.7500151311082511
+    ],
+    "chi2": 13.305816791881812,
+    "dof": 9,
+    "chi2_reduced": 1.478424087986868,
+    "p_value": 0.14924956921236684,
+    "N_min": 3000,
+    "N_max": 20000,
+    "points": 11,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "pivot_pure_Nmin_4000": {
+    "A": 0.7715315841179103,
+    "A_sem": 0.00047941146110982096,
+    "nu": 0.7499874943033757,
+    "nu_sem": 3.440672698280111e-05,
+    "covariance": [
+      [
+        2.298353490434534e-07,
+        -1.647006013758945e-08
+      ],
+      [
+        -1.647006013758945e-08,
+        1.1838228616690138e-09
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7499530875763929,
+      0.7500219010303586
+    ],
+    "ci95": [
+      0.7499200583576635,
+      0.750054930249088
+    ],
+    "chi2": 11.73765031182167,
+    "dof": 8,
+    "chi2_reduced": 1.4672062889777087,
+    "p_value": 0.16329870463443902,
+    "N_min": 4000,
+    "N_max": 20000,
+    "points": 10,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "pivot_pure_Nmin_5000": {
+    "A": 0.7715744577460408,
+    "A_sem": 0.0006313438218032242,
+    "nu": 0.7499845250050077,
+    "nu_sem": 4.4644300996286755e-05,
+    "covariance": [
+      [
+        3.985950213291014e-07,
+        -2.815664896699539e-08
+      ],
+      [
+        -2.815664896699539e-08,
+        1.9931136114470504e-09
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7499398807040114,
+      0.7500291693060039
+    ],
+    "ci95": [
+      0.74989702378294,
+      0.7500720262270754
+    ],
+    "chi2": 11.726757597776112,
+    "dof": 7,
+    "chi2_reduced": 1.6752510853965874,
+    "p_value": 0.10991027544166317,
+    "N_min": 5000,
+    "N_max": 20000,
+    "points": 9,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "pivot_pure_Nmin_7000": {
+    "A": 0.769791423676361,
+    "A_sem": 0.0008679576577065659,
+    "nu": 0.7501068048925973,
+    "nu_sem": 6.061029493334778e-05,
+    "covariance": [
+      [
+        7.533504955714682e-07,
+        -5.2571159048381565e-08
+      ],
+      [
+        -5.2571159048381565e-08,
+        3.6736078519074035e-09
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.750046194597664,
+      0.7501674151875306
+    ],
+    "ci95": [
+      0.7499880108974356,
+      0.750225598887759
+    ],
+    "chi2": 2.8158920413302786,
+    "dof": 5,
+    "chi2_reduced": 0.5631784082660557,
+    "p_value": 0.7283441077198961,
+    "N_min": 7000,
+    "N_max": 20000,
+    "points": 7,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_4": {
+    "A": 0.924115028529167,
+    "A_sem": 0.0005323341430736821,
+    "nu": 0.727639611789586,
+    "nu_sem": 0.00010469749498371017,
+    "covariance": [
+      [
+        2.8337963988199143e-07,
+        -5.371670187619853e-08
+      ],
+      [
+        -5.371670187619853e-08,
+        1.0961565455864016e-08
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7275349142946023,
+      0.7277443092845698
+    ],
+    "ci95": [
+      0.7274344084701464,
+      0.7278448151090257
+    ],
+    "chi2": 1392.9102008611085,
+    "dof": 14,
+    "chi2_reduced": 99.49358577579346,
+    "p_value": 5.459733743514227e-289,
+    "N_min": 4,
+    "N_max": 30,
+    "points": 16,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_6": {
+    "A": 0.9117902993229743,
+    "A_sem": 0.0007647072787348614,
+    "nu": 0.7298195540676004,
+    "nu_sem": 0.0001433262313737013,
+    "covariance": [
+      [
+        5.847772221500769e-07,
+        -1.0740293959153125e-07
+      ],
+      [
+        -1.0740293959153125e-07,
+        2.0542408599787756e-08
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7296762278362267,
+      0.729962880298974
+    ],
+    "ci95": [
+      0.729538639816068,
+      0.7301004683191327
+    ],
+    "chi2": 351.75154187299034,
+    "dof": 12,
+    "chi2_reduced": 29.31262848941586,
+    "p_value": 5.98996176765327e-68,
+    "N_min": 6,
+    "N_max": 30,
+    "points": 14,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_8": {
+    "A": 0.9038991202296414,
+    "A_sem": 0.0010932777079610974,
+    "nu": 0.7311845787045177,
+    "nu_sem": 0.00019754291001291657,
+    "covariance": [
+      [
+        1.1952561467246707e-06,
+        -2.1356370248336808e-07
+      ],
+      [
+        -2.1356370248336808e-07,
+        3.9023201296371256e-08
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7309870357945047,
+      0.7313821216145306
+    ],
+    "ci95": [
+      0.7307974017154911,
+      0.7315717556935443
+    ],
+    "chi2": 113.3765124613582,
+    "dof": 10,
+    "chi2_reduced": 11.33765124613582,
+    "p_value": 1.110560555919575e-19,
+    "N_min": 8,
+    "N_max": 30,
+    "points": 12,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_10": {
+    "A": 0.8974343018909913,
+    "A_sem": 0.001662446502713648,
+    "nu": 0.7322901843143743,
+    "nu_sem": 0.00029214515298223,
+    "covariance": [
+      [
+        2.7637283743848394e-06,
+        -4.830516448933739e-07
+      ],
+      [
+        -4.830516448933739e-07,
+        8.534879041101057e-08
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7319980391613921,
+      0.7325823294673566
+    ],
+    "ci95": [
+      0.7317175903362712,
+      0.7328627782924775
+    ],
+    "chi2": 40.160871330195945,
+    "dof": 8,
+    "chi2_reduced": 5.020108916274493,
+    "p_value": 2.9900552319300734e-06,
+    "N_min": 10,
+    "N_max": 30,
+    "points": 10,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_12": {
+    "A": 0.8912959481426349,
+    "A_sem": 0.002194462292317638,
+    "nu": 0.7333362448077552,
+    "nu_sem": 0.0003826724477903292,
+    "covariance": [
+      [
+        4.815664752403982e-06,
+        -8.370340561423342e-07
+      ],
+      [
+        -8.370340561423342e-07,
+        1.4643820229784224e-07
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7329535723599648,
+      0.7337189172555455
+    ],
+    "ci95": [
+      0.7325862205922103,
+      0.7340862690233
+    ],
+    "chi2": 22.208506582421883,
+    "dof": 7,
+    "chi2_reduced": 3.1726437974888406,
+    "p_value": 0.002338407949798685,
+    "N_min": 12,
+    "N_max": 30,
+    "points": 9,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_14": {
+    "A": 0.8861251513241477,
+    "A_sem": 0.002850549692071547,
+    "nu": 0.7342179480663091,
+    "nu_sem": 0.000494829792895382,
+    "covariance": [
+      [
+        8.125633546969192e-06,
+        -1.4077170415276276e-06
+      ],
+      [
+        -1.4077170415276276e-06,
+        2.4485652393688665e-07
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7337231182734137,
+      0.7347127778592045
+    ],
+    "ci95": [
+      0.7332480994937568,
+      0.7351877966388615
+    ],
+    "chi2": 14.29892441706142,
+    "dof": 6,
+    "chi2_reduced": 2.3831540695102365,
+    "p_value": 0.02646954058100199,
+    "N_min": 14,
+    "N_max": 30,
+    "points": 8,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  },
+  "simple_pure_Nmin_16": {
+    "A": 0.8792907374125032,
+    "A_sem": 0.0035904390405070486,
+    "nu": 0.7353861995318768,
+    "nu_sem": 0.0006235766392171167,
+    "covariance": [
+      [
+        1.2891252503597176e-05,
+        -2.236018049062942e-06
+      ],
+      [
+        -2.236018049062942e-06,
+        3.888478249773141e-07
+      ]
+    ],
+    "parameter_order": [
+      "A",
+      "nu"
+    ],
+    "ci68": [
+      0.7347626228926597,
+      0.7360097761710939
+    ],
+    "ci95": [
+      0.7341640117774108,
+      0.7366083872863428
+    ],
+    "chi2": 4.799074501040497,
+    "dof": 5,
+    "chi2_reduced": 0.9598149002080995,
+    "p_value": 0.4408903922633203,
+    "N_min": 16,
+    "N_max": 30,
+    "points": 7,
+    "model": "A*N^(2*nu)",
+    "method": "scipy.optimize.curve_fit",
+    "absolute_sigma": true,
+    "uncertainty": "Local Gaussian covariance; one-sigma statistical errors conditional on model and fit range; no chi-square rescaling"
+  }
+}

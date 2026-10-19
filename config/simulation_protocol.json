@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "simple_sampling": {
+    "proposal_scheme": "non_backtracking",
+    "lengths": [4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 18, 20, 22, 25, 28, 30],
+    "base_walks_per_length": 1000000,
+    "base_seed": 20260619,
+    "refinement_seed": 2026092000,
+    "refinement_walks": {
+      "20": 2000000,
+      "22": 4000000,
+      "25": 12000000,
+      "28": 30000000,
+      "30": 60000000
+    }
+  },
+  "pivot": {
+    "short_lengths": [4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 18, 20, 22, 25, 28, 30],
+    "intermediate_lengths": [40, 60, 80, 100, 120, 150],
+    "long_attempts": {
+      "200": 18000000,
+      "400": 57000000,
+      "600": 18000000,
+      "800": 17000000,
+      "1000": 128000000,
+      "1200": 22000000,
+      "1400": 81000000,
+      "1600": 25000000,
+      "2000": 67000000,
+      "2400": 20000000,
+      "3000": 45000000,
+      "4000": 56000000,
+      "5000": 26000000,
+      "6000": 27000000,
+      "7000": 30000000,
+      "8000": 19000000,
+      "9000": 33000000,
+      "10000": 60000000,
+      "12000": 28000000,
+      "15000": 29000000,
+      "20000": 42000000
+    },
+    "short_attempts": 200000,
+    "intermediate_attempts": 500000,
+    "replicas_short_and_intermediate": 16,
+    "replicas_long": 80,
+    "production_seed_base": 202607170000
+  },
+  "thermalization_calibration": {
+    "replicas": 8,
+    "seed_base": 202610090000,
+    "pilot_attempts": {
+      "short": 40000,
+      "intermediate": 100000,
+      "long": 1000000
+    },
+    "record_every": {
+      "short": 100,
+      "intermediate": 250,
+      "long": 2500
+    },
+    "late_fraction": 0.25,
+    "consecutive_stable_bins": 20,
+    "sigma_tolerance": 3.0,
+    "relative_tolerance_Re2": 0.05,
+    "absolute_tolerance_acceptance": 0.02,
+    "absolute_tolerance_free_path_fraction": 0.02,
+    "safety_factor": 2.0,
+    "maximum_burn_fraction": 0.75
+  },
+  "analysis": {
+    "scaling_model": "A*N^(2*nu)",
+    "simple_N_min": 6,
+    "pivot_N_min": 3000
+  }
+}

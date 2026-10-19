@@ -1,0 +1,13 @@
+{
+  "budgets": {
+    "20": 2000000,
+    "22": 4000000,
+    "25": 12000000,
+    "28": 30000000,
+    "30": 60000000
+  },
+  "base_seed": 2026092000,
+  "batch_size": 100000,
+  "proposal_scheme": "non_backtracking",
+  "method": "independent non-backtracking walks, direct rejection at first intersection"
+}

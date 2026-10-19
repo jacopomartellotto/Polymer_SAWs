@@ -1,0 +1,65 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Compiled binaries and build products
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+build/
+dist/
+*.egg-info/
+
+# LaTeX auxiliary files; final PDFs and source TeX files stay in Git
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Incomplete simulations and temporary files
+*.partial.csv
+*.partial.json
+*.tmp
+*.temp
+*.bak
+~$*
+.tmp/
+tmp/
+temp/
+
+# Local settings and operating-system files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal university paperwork and local copies of third-party publications
+/Documents/
+/references/*.pdf
+
+# Intentionally retained: outputs/data, outputs/diagnostics, outputs/analysis,
+# output PNG figures, slides (including the PDF and frozen figures), and abstract.
